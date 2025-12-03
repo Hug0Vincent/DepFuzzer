@@ -11,9 +11,20 @@ NUGET_RESERVED_PREFIXES = [
     "System",
     "Azure",
     "Serilog",
-    "Newtonsoft"
+    "Newtonsoft",
+    "Xamarin",
+    "xunit",
+    "OpenTelemetry",
+    "Spectre",
+    "Grpc",
+    "NuGet",
+    "Google",
+    "AWSSDK",
+    "Castle",
+    "Polly",
+    "Moq",
+    "AutoMapper"
 ]
-
 
 @cache
 def dependency_exists(name, provider, session):
